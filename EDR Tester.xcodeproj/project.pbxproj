@@ -524,6 +524,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.example.apple-samplecode.EDR-Tester";
 				PRODUCT_NAME = "EDR Tester";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -548,6 +549,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.example.apple-samplecode.EDR-Tester";
 				PRODUCT_NAME = "EDR Tester";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

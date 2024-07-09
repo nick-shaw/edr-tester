@@ -5,3 +5,5 @@ This is a simple modification of the Apple sample code called [`MetalKitAndRende
 It adds a few lines to make the buffer half-float and enable EDR, and has a control window to set the RGB values and `CGColorSpace`. After the first update, it also displays the `maximumExtendedDynamicRangeColorComponentValue`.
 
 The purpose of the app was to investigate the behaviour of macOS colour management, by measuring the XYZ values of the patch with a colorimeter to ascertain the EOTF used in various display modes.
+
+![Controls Window](./images/controls.png)![Patch Window](./images/patch.png)
