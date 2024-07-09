@@ -805,7 +805,8 @@
                                             <menuItem title="kCGColorSpaceExtendedSRGB" id="AqT-zT-hOR"/>
                                             <menuItem title="kCGColorSpaceITUR_2100_HLG" id="zYI-cI-F1c" userLabel="BT.2100 HLG 1000 nits"/>
                                             <menuItem title="kCGColorSpaceITUR_2100_PQ" id="KLF-su-hDK" userLabel="BT.2100 PQ"/>
-                                            <menuItem title="kCGColorSpaceExtendedLinearITUR_2020" id="NDG-ys-EK1" userLabel="BT.2100 PQ"/>
+                                            <menuItem title="kCGColorSpaceExtendedLinearITUR_2020" id="NDG-ys-EK1" userLabel="linear Rec.2020"/>
+                                            <menuItem title="nil" id="tFU-l1-2FT"/>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
