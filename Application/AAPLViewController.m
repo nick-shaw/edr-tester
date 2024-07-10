@@ -99,6 +99,16 @@ Implementation of the cross-platform view controller.
 }
 
 - (IBAction)updatePressed:(id)sender {
+    // Migrate to new MTLDevice if needed
+    NSNumber* NSScreenNumber = _view.window.screen.deviceDescription[@"NSScreenNumber"];
+    NSLog(@"%d", (int)[NSScreenNumber unsignedIntValue]);
+
+    id<MTLDevice> newDevice = CGDirectDisplayCopyCurrentMetalDevice([NSScreenNumber unsignedIntValue]);
+    if (_view.device != newDevice)
+    {
+        _view.device = newDevice;
+    }
+
     float red = _redValue.floatValue;
     float green = _greenValue.floatValue;
     float blue = _blueValue.floatValue;
