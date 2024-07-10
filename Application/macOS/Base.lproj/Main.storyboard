@@ -663,7 +663,7 @@
                     <window key="window" title="Test Patch" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="IQv-IB-iLA" userLabel="Patch">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="500" y="460" width="400" height="400"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1512" height="944"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="EWr-ZS-2eM"/>
@@ -682,7 +682,7 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="AAPLViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl" customClass="MTKView">
-                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                     <connections>
@@ -692,20 +692,21 @@
                         <outlet property="eotfDropdown" destination="8AR-EP-jL7" id="7eN-VC-R9W"/>
                         <outlet property="greenValue" destination="q5L-pD-EqD" id="NvW-5H-Nwr"/>
                         <outlet property="maxEDRvalue" destination="5uv-XZ-pNN" id="biF-X9-SSB"/>
+                        <outlet property="nudgeStep" destination="CHt-Nl-xns" id="mWO-ay-c0b"/>
                         <outlet property="redValue" destination="lGc-Xc-arQ" id="F7h-jH-99Y"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <window title="Controls" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" frameAutosaveName="" animationBehavior="default" id="Wbl-q6-OTc">
                     <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
-                    <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                    <rect key="contentRect" x="1070" y="723" width="344" height="160"/>
+                    <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" bottomStrut="YES"/>
+                    <rect key="contentRect" x="80" y="700" width="400" height="160"/>
                     <rect key="screenRect" x="0.0" y="0.0" width="1512" height="944"/>
                     <view key="contentView" id="uJ8-rY-MQg" userLabel="ControlsWindow">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="160"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="160"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGc-Xc-arQ" userLabel="RedValueField">
+                            <textField toolTip="Patch red value" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGc-Xc-arQ" userLabel="RedValueField">
                                 <rect key="frame" x="20" y="103" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="1.0" drawsBackground="YES" id="gkZ-9L-eVX">
@@ -718,7 +719,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q5L-pD-EqD" userLabel="GreenValueField">
+                            <textField toolTip="Patch green value" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q5L-pD-EqD" userLabel="GreenValueField">
                                 <rect key="frame" x="124" y="103" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="1.0" drawsBackground="YES" id="mj9-ve-4Zw">
@@ -731,7 +732,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFP-gT-BdV" userLabel="BlueValueField">
+                            <textField toolTip="Patch blue value" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFP-gT-BdV" userLabel="BlueValueField">
                                 <rect key="frame" x="228" y="103" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="1.0" drawsBackground="YES" id="Gvf-MF-yZl">
@@ -784,7 +785,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uv-XZ-pNN" userLabel="maxEDRvalueField">
-                                <rect key="frame" x="75" y="15" width="96" height="21"/>
+                                <rect key="frame" x="75" y="15" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="ubD-3O-U8m">
                                     <font key="font" metaFont="system"/>
@@ -792,7 +793,7 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8AR-EP-jL7" userLabel="EOTFdropdown">
+                            <popUpButton toolTip="Patch colour space" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8AR-EP-jL7" userLabel="EOTFdropdown">
                                 <rect key="frame" x="17" y="66" width="311" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <popUpButtonCell key="cell" type="push" title="kCGColorSpaceExtendedLinearDisplayP3" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="APP-o5-qfG" id="gu5-Ve-azA">
@@ -814,8 +815,43 @@
                                     <action selector="eotfChanged:" target="XfG-lQ-9wD" id="a1g-sC-Whd"/>
                                 </connections>
                             </popUpButton>
+                            <button toolTip="Nudge up (⌘↑)" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A37-u2-4Bx">
+                                <rect key="frame" x="341" y="115" width="39" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="roundRect" title="+" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vLN-po-2i9">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                    <connections>
+                                        <action selector="nudgeUp:" target="XfG-lQ-9wD" id="WAp-EW-Cf5"/>
+                                    </connections>
+                                </buttonCell>
+                            </button>
+                            <button toolTip="Nudge down(⌘↓)" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o34-y8-oXt">
+                                <rect key="frame" x="341" y="93" width="39" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="roundRect" title="-" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5iz-tL-YB2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                                    <connections>
+                                        <action selector="nudgeDown:" target="XfG-lQ-9wD" id="eka-bf-3cD"/>
+                                    </connections>
+                                </buttonCell>
+                            </button>
+                            <textField toolTip="Nudge step" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M4V-3d-1Fv" userLabel="nudgeStepField">
+                                <rect key="frame" x="341" y="65" width="39" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" title="0.1" drawsBackground="YES" id="CHt-Nl-xns" userLabel="nudgeStepValue">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGc-nb-EP7">
-                                <rect key="frame" x="252" y="13" width="79" height="32"/>
+                                <rect key="frame" x="308" y="13" width="79" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Update" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Kai-IS-PRk">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>

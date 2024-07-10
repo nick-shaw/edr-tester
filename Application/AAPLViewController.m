@@ -49,8 +49,9 @@ Implementation of the cross-platform view controller.
     // Initialize the renderer with the view size.
     [_renderer mtkView:_view drawableSizeWillChange:_view.drawableSize];
     
-// This was supposed to set the focus to the Controls window, but doesn't work!
     _view.delegate = _renderer;
+    
+    // This was supposed to set the focus to the Controls window, but doesn't work!
     [self.Controls makeKeyAndOrderFront:nil];
     
 // On first launch the maxEDR value is read as zero, so not run until Update is clicked
@@ -61,6 +62,36 @@ Implementation of the cross-platform view controller.
 {
     float maxEDR = _view.window.screen.maximumExtendedDynamicRangeColorComponentValue;
     [_maxEDRvalue setFloatValue:maxEDR];
+}
+
+- (IBAction)nudgeDown:(id)sender {
+    float red = _redValue.floatValue;
+    float green = _greenValue.floatValue;
+    float blue = _blueValue.floatValue;
+    float step = _nudgeStep.floatValue;
+    red = fmaxf(0, red-step);
+    green = fmaxf(0, green-step);
+    blue = fmaxf(0, blue-step);
+    [_redValue setFloatValue:red];
+    [_greenValue setFloatValue:green];
+    [_blueValue setFloatValue:blue];
+    _view.clearColor = MTLClearColorMake(red, green, blue, 1.0);
+    [self setEDRvalue];
+}
+
+- (IBAction)nudgeUp:(id)sender {
+    float red = _redValue.floatValue;
+    float green = _greenValue.floatValue;
+    float blue = _blueValue.floatValue;
+    float step = _nudgeStep.floatValue;
+    red += step;
+    green += step;
+    blue += step;
+    [_redValue setFloatValue:red];
+    [_greenValue setFloatValue:green];
+    [_blueValue setFloatValue:blue];
+    _view.clearColor = MTLClearColorMake(red, green, blue, 1.0);
+    [self setEDRvalue];
 }
 
 - (IBAction)updatePressed:(id)sender {
@@ -115,5 +146,6 @@ Implementation of the cross-platform view controller.
     {
         metalLayer.colorspace = nil;
     }
+    [self setEDRvalue];
 }
 @end

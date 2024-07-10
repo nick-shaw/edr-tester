@@ -8,24 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3A58E28C222F7ECD00072892 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E28B222F7ECD00072892 /* AAPLRenderer.m */; };
-		3A58E28D222F7ECD00072892 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E28B222F7ECD00072892 /* AAPLRenderer.m */; };
-		3A58E28E222F7ECD00072892 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E28B222F7ECD00072892 /* AAPLRenderer.m */; };
 		3A58E28F222F7F1400072892 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E289222F7D9900072892 /* AAPLViewController.m */; };
-		3A58E290222F7F1400072892 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E289222F7D9900072892 /* AAPLViewController.m */; };
-		3A58E291222F7F1500072892 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E289222F7D9900072892 /* AAPLViewController.m */; };
 		3A58E292222F7F1700072892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E287222F7D9900072892 /* main.m */; };
-		3A58E293222F7F1800072892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E287222F7D9900072892 /* main.m */; };
-		3A58E294222F7F1800072892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E287222F7D9900072892 /* main.m */; };
-		3A58E295222F7F1E00072892 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E27B222F7D9900072892 /* AAPLAppDelegate.m */; };
-		3A58E297222F7F2100072892 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E27B222F7D9900072892 /* AAPLAppDelegate.m */; };
-		3A58E298222F7F2F00072892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A58E27E222F7D9900072892 /* LaunchScreen.storyboard */; };
-		3A58E299222F7F2F00072892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A58E280222F7D9900072892 /* Main.storyboard */; };
-		3A58E29A222F7F3800072892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A58E284222F7D9900072892 /* Main.storyboard */; };
 		3A58E29B222F7F4000072892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A58E278222F7D9900072892 /* Main.storyboard */; };
 		83E9F9A021ED16D900B393C1 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9F99E21ED16D900B393C1 /* Metal.framework */; };
 		83E9F9A121ED16D900B393C1 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9F99F21ED16D900B393C1 /* MetalKit.framework */; };
-		CF2B7FCD220B9FEB002847D1 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B7FCB220B9FEB002847D1 /* MetalKit.framework */; };
-		CF2B7FCE220B9FEB002847D1 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B7FCC220B9FEB002847D1 /* Metal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +22,6 @@
 		3A58E27A222F7D9900072892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A58E27B222F7D9900072892 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
 		3A58E27C222F7D9900072892 /* AAPLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLViewController.h; sourceTree = "<group>"; };
-		3A58E27F222F7D9900072892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3A58E281222F7D9900072892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A58E282222F7D9900072892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A58E285222F7D9900072892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A58E286222F7D9900072892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A58E287222F7D9900072892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A58E288222F7D9900072892 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
 		3A58E289222F7D9900072892 /* AAPLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLViewController.m; sourceTree = "<group>"; };
@@ -48,10 +30,8 @@
 		83E9F98621ED168D00B393C1 /* EDR Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EDR Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E9F99E21ED16D900B393C1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		83E9F99F21ED16D900B393C1 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		CF2B7FB0220B9DB6002847D1 /* MetalKitAndRenderSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalKitAndRenderSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2B7FCB220B9FEB002847D1 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		CF2B7FCC220B9FEB002847D1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
-		CF2B7FD5220BA750002847D1 /* MetalKitAndRenderSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalKitAndRenderSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF87FE42220B61290011ECD1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,22 +42,6 @@
 			files = (
 				83E9F9A021ED16D900B393C1 /* Metal.framework in Frameworks */,
 				83E9F9A121ED16D900B393C1 /* MetalKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2B7FAD220B9DB6002847D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF2B7FCD220B9FEB002847D1 /* MetalKit.framework in Frameworks */,
-				CF2B7FCE220B9FEB002847D1 /* Metal.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2B7FD2220BA750002847D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +72,7 @@
 				3A58E27C222F7D9900072892 /* AAPLViewController.h */,
 				3A58E289222F7D9900072892 /* AAPLViewController.m */,
 				3A58E287222F7D9900072892 /* main.m */,
-				3A58E283222F7D9900072892 /* tvOS */,
 				3A58E277222F7D9900072892 /* macOS */,
-				3A58E27D222F7D9900072892 /* iOS */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -122,25 +84,6 @@
 				3A58E27A222F7D9900072892 /* Info.plist */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		3A58E27D222F7D9900072892 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3A58E27E222F7D9900072892 /* LaunchScreen.storyboard */,
-				3A58E280222F7D9900072892 /* Main.storyboard */,
-				3A58E282222F7D9900072892 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		3A58E283222F7D9900072892 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				3A58E284222F7D9900072892 /* Main.storyboard */,
-				3A58E286222F7D9900072892 /* Info.plist */,
-			);
-			path = tvOS;
 			sourceTree = "<group>";
 		};
 		83E9F97D21ED168D00B393C1 = {
@@ -160,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				83E9F98621ED168D00B393C1 /* EDR Tester.app */,
-				CF2B7FB0220B9DB6002847D1 /* MetalKitAndRenderSetup.app */,
-				CF2B7FD5220BA750002847D1 /* MetalKitAndRenderSetup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,40 +147,6 @@
 			productReference = 83E9F98621ED168D00B393C1 /* EDR Tester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF2B7FAF220B9DB6002847D1 /* EDR Tester-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF2B7FC5220B9DB8002847D1 /* Build configuration list for PBXNativeTarget "EDR Tester-iOS" */;
-			buildPhases = (
-				CF2B7FAC220B9DB6002847D1 /* Sources */,
-				CF2B7FAD220B9DB6002847D1 /* Frameworks */,
-				CF2B7FAE220B9DB6002847D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EDR Tester-iOS";
-			productName = "MetalKitAndRenderPasses-iOS";
-			productReference = CF2B7FB0220B9DB6002847D1 /* MetalKitAndRenderSetup.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CF2B7FD4220BA750002847D1 /* EDR Tester-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF2B7FE7220BA752002847D1 /* Build configuration list for PBXNativeTarget "EDR Tester-tvOS" */;
-			buildPhases = (
-				CF2B7FD1220BA750002847D1 /* Sources */,
-				CF2B7FD2220BA750002847D1 /* Frameworks */,
-				CF2B7FD3220BA750002847D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EDR Tester-tvOS";
-			productName = "MetalKitAndRenderPasses-tvOS";
-			productReference = CF2B7FD5220BA750002847D1 /* MetalKitAndRenderSetup.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -258,12 +165,6 @@
 							};
 						};
 					};
-					CF2B7FAF220B9DB6002847D1 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					CF2B7FD4220BA750002847D1 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 				};
 			};
 			buildConfigurationList = 83E9F98121ED168D00B393C1 /* Build configuration list for PBXProject "EDR Tester" */;
@@ -280,8 +181,6 @@
 			projectRoot = "";
 			targets = (
 				83E9F98521ED168D00B393C1 /* EDR Tester-macOS */,
-				CF2B7FAF220B9DB6002847D1 /* EDR Tester-iOS */,
-				CF2B7FD4220BA750002847D1 /* EDR Tester-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -292,23 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A58E29B222F7F4000072892 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2B7FAE220B9DB6002847D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A58E298222F7F2F00072892 /* LaunchScreen.storyboard in Resources */,
-				3A58E299222F7F2F00072892 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2B7FD3220BA750002847D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A58E29A222F7F3800072892 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,28 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF2B7FAC220B9DB6002847D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A58E290222F7F1400072892 /* AAPLViewController.m in Sources */,
-				3A58E293222F7F1800072892 /* main.m in Sources */,
-				3A58E295222F7F1E00072892 /* AAPLAppDelegate.m in Sources */,
-				3A58E28D222F7ECD00072892 /* AAPLRenderer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2B7FD1220BA750002847D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A58E291222F7F1500072892 /* AAPLViewController.m in Sources */,
-				3A58E294222F7F1800072892 /* main.m in Sources */,
-				3A58E297222F7F2100072892 /* AAPLAppDelegate.m in Sources */,
-				3A58E28E222F7ECD00072892 /* AAPLRenderer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -354,30 +214,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A58E279222F7D9900072892 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A58E27E222F7D9900072892 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A58E27F222F7D9900072892 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3A58E280222F7D9900072892 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A58E281222F7D9900072892 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A58E284222F7D9900072892 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A58E285222F7D9900072892 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -523,8 +359,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.example.apple-samplecode.EDR-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antlerpost.--PRODUCT-NAME---SAMPLE-CODE-DISAMBIGUATOR-";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.antlerpost.EDR-Tester";
 				PRODUCT_NAME = "EDR Tester";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -548,116 +384,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.example.apple-samplecode.EDR-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antlerpost.--PRODUCT-NAME---SAMPLE-CODE-DISAMBIGUATOR-";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.antlerpost.EDR-Tester";
 				PRODUCT_NAME = "EDR Tester";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Release;
-		};
-		CF2B7FC3220B9DB8002847D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7AC9D00E7AC67000000001 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					TARGET_IOS,
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = MetalKitAndRenderSetup;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CF2B7FC4220B9DB8002847D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7AC9D00E7AC67000000001 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = TARGET_IOS;
-				INFOPLIST_FILE = "$(SRCROOT)/Application/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = MetalKitAndRenderSetup;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CF2B7FE5220BA752002847D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7AC9D00E7AC67000000001 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					TARGET_TVOS,
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = MetalKitAndRenderSetup;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.1;
-			};
-			name = Debug;
-		};
-		CF2B7FE6220BA752002847D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7AC9D00E7AC67000000001 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = TARGET_TVOS;
-				INFOPLIST_FILE = "$(SRCROOT)/Application/tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME)${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = MetalKitAndRenderSetup;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.1;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -678,24 +408,6 @@
 			buildConfigurations = (
 				83E9F99B21ED168F00B393C1 /* Debug */,
 				83E9F99C21ED168F00B393C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF2B7FC5220B9DB8002847D1 /* Build configuration list for PBXNativeTarget "EDR Tester-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF2B7FC3220B9DB8002847D1 /* Debug */,
-				CF2B7FC4220B9DB8002847D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF2B7FE7220BA752002847D1 /* Build configuration list for PBXNativeTarget "EDR Tester-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF2B7FE5220BA752002847D1 /* Debug */,
-				CF2B7FE6220BA752002847D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
