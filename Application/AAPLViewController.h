@@ -24,8 +24,11 @@ Header for the cross-platform view controller.
 @property (weak) IBOutlet NSTextField *greenValue;
 @property (weak) IBOutlet NSTextField *blueValue;
 @property (weak) IBOutlet NSTextField *maxEDRvalue;
+@property (weak) IBOutlet NSTextField *maxPotEDRvalue;
+
 @property (weak) IBOutlet NSPopUpButton *eotfDropdown;
 @property (weak) IBOutlet NSTextFieldCell *nudgeStep;
+@property (weak) IBOutlet NSTextField *maxRefEDRvalue;
 
 - (IBAction)eotfChanged:(id)sender;
 - (IBAction)updatePressed:(id)sender;

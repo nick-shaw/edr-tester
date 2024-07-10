@@ -61,7 +61,11 @@ Implementation of the cross-platform view controller.
 - (void)setEDRvalue
 {
     float maxEDR = _view.window.screen.maximumExtendedDynamicRangeColorComponentValue;
+    float maxPotEDR = _view.window.screen.maximumPotentialExtendedDynamicRangeColorComponentValue;
+    float maxRefEDR = _view.window.screen.maximumReferenceExtendedDynamicRangeColorComponentValue;
     [_maxEDRvalue setFloatValue:maxEDR];
+    [_maxPotEDRvalue setFloatValue:maxPotEDR];
+    [_maxRefEDRvalue setFloatValue:maxRefEDR];
 }
 
 - (IBAction)nudgeDown:(id)sender {
