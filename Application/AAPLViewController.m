@@ -145,12 +145,21 @@ Implementation of the cross-platform view controller.
     {
         name = kCGColorSpaceExtendedLinearITUR_2020;
     }
-    else // if (eotf == 6)
+    else if (eotf == 6)
+    {
+        name = kCGColorSpaceDCIP3;
+    }
+    else if (eotf == 7)
+    {
+        name = kCGColorSpaceITUR_709;
+//        name = kCGColorSpaceCoreMedia709;
+    }
+    else // if (eotf == 8)
     {
         name = nil;
     }
     
-    if (eotf < 6)
+    if (eotf < 8)
     {
         CGColorSpaceRef colorspace = CGColorSpaceCreateWithName(name);
         metalLayer.colorspace = colorspace;

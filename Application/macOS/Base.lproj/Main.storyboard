@@ -703,7 +703,7 @@
                     <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                     <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" bottomStrut="YES"/>
                     <rect key="contentRect" x="80" y="700" width="400" height="160"/>
-                    <rect key="screenRect" x="0.0" y="0.0" width="1512" height="944"/>
+                    <rect key="screenRect" x="0.0" y="0.0" width="1800" height="1125"/>
                     <view key="contentView" id="uJ8-rY-MQg" userLabel="ControlsWindow">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="160"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -827,6 +827,8 @@
                                             <menuItem title="kCGColorSpaceITUR_2100_HLG" id="zYI-cI-F1c" userLabel="BT.2100 HLG 1000 nits"/>
                                             <menuItem title="kCGColorSpaceITUR_2100_PQ" id="KLF-su-hDK" userLabel="BT.2100 PQ"/>
                                             <menuItem title="kCGColorSpaceExtendedLinearITUR_2020" id="NDG-ys-EK1" userLabel="linear Rec.2020"/>
+                                            <menuItem title="kCGColorSpaceDCIP3" id="geN-na-6n8" userLabel="DCI P3"/>
+                                            <menuItem title="kCGColorSpaceITUR_709" id="EmC-rQ-Wvi" userLabel="Rec.709"/>
                                             <menuItem title="nil" id="tFU-l1-2FT"/>
                                         </items>
                                     </menu>
@@ -889,9 +891,9 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGc-nb-EP7">
-                                <rect key="frame" x="308" y="13" width="79" height="32"/>
+                                <rect key="frame" x="307" y="13" width="81" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Update" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Kai-IS-PRk">
+                                <buttonCell key="cell" type="push" title="Refresh" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Kai-IS-PRk">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -902,6 +904,7 @@
                         </subviews>
                     </view>
                 </window>
+                <menuItem title="kCGColorSpaceExtendedLinearITUR_2020" id="aXL-VA-grs" userLabel="linear Rec.2020"/>
             </objects>
             <point key="canvasLocation" x="75" y="817"/>
         </scene>
